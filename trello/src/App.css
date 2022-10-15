@@ -8,7 +8,7 @@
 #main-comp
 {
     display: grid;
-    grid-template-columns: 650px 1fr;
+    grid-template-columns: 100px 1fr;
     padding: 26px;
 }
 #Cards-comp-main
@@ -52,3 +52,4 @@
 }
 #card-bottom { display:flex;padding:2px 12px}
 #delete {width: 50%;}
+

@@ -1,0 +1,16 @@
+.sidebar_list 
+{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;align-items: center;
+    height: 0;
+}
+
+.sidebar_list.active {height: 300px;}
+
+.sidebar_list_item
+{
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+}
