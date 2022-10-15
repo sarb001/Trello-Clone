@@ -1,12 +1,18 @@
 *
 {
     margin: 0px;
-    padding: 0px;
+    padding: 9px;
     box-sizing: border-box;
 }
-#btn-outside { 
-background-color: red;
-border: 1px solid #efb25f;
-border-radius: 25px;
-padding:18px 7px 2px;
+#main-comp
+{
+    display: grid;
+    grid-template-columns: 650px 1fr;
+}
+#Cards-comp-main
+{
+    background-color: #efb25f;
+}
+#sidebar {
+    background-color: brown;
 }
