@@ -5,7 +5,6 @@ import CardsList from './CardsList';
  {
   return (
     <div id = "cards-comp-main">
-         <h2> CardsComp </h2> 
          <CardsList />
     </div>
   )
