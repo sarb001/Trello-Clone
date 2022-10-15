@@ -6,6 +6,7 @@ import React from 'react'
     <div id = "sidebar-main"> 
            <span id = "btn-outside"> 
            <h2> Sidebar  </h2>
+           <img src = "/Addhere.jpg"  style = {{width:'10%'}}/>
            </span>
     </div>
   )

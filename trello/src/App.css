@@ -1,13 +1,15 @@
 *
 {
     margin: 0px;
-    padding: 9px;
+    padding: 0px;
     box-sizing: border-box;
+    cursor: pointer;
 }
 #main-comp
 {
     display: grid;
     grid-template-columns: 650px 1fr;
+    padding: 26px;
 }
 #Cards-comp-main
 {
@@ -15,4 +17,36 @@
 }
 #sidebar {
     background-color: brown;
+}
+
+.card-cover {
+    display: flex;
+    flex-direction: column;
+    width: 355px;
+    background-color: #b33c3c;
+    height: 34vh;
+    border-radius: 25px;
+    padding: 3% 1%;
+}
+#title-textarea {
+     resize: none;
+     outline: none;
+     border: none;
+     padding: 5px 0px;
+     width: 334px;
+}
+#content-textarea {  resize: none;
+    outline: none;
+    border:none;
+    width: 335px;
+    height: 15vh;
+}
+#delete {padding: 0px;text-align: end;}
+#card-content {padding: 0px;}
+#title { padding: 0px;}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,2fr));
+    grid-gap:30px;
 }
